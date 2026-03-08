@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    /* background-color: black; */
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 20px 20px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+.icon{
+    padding: 20px 0;
+    margin: 0px 10px;
+    color: white;
+}
+

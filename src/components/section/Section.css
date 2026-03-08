@@ -1,0 +1,60 @@
+.figure img {
+    padding: 30px 6px;
+    width: 1180px;
+    
+    height: 450px;
+    object-fit: fill;
+
+
+}
+
+.figure {
+    position: relative;
+    width: fit-content;
+}
+
+.absolute {
+    position: absolute;
+
+}
+
+.element1 {
+    top: 80px;
+    left: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.element2 {
+    top: 110px;
+    left: 95px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.element3 {
+    margin: 0 auto;
+    bottom: 45px;
+    left: 570px;
+    color: white;
+    font-size: 12px;
+    padding: 0px 8px;
+    border: 2px solid #333;
+    cursor: pointer;
+    background-color: #a67354;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+}
+.head h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+.head p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
