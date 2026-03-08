@@ -1,6 +1,6 @@
 .figure img {
     padding: 30px 6px;
-    width: 1080px;
+    width: 960px;
     
     height: 450px;
     object-fit: cover;
@@ -39,7 +39,7 @@
 .element3 {
     margin: 0 auto;
     bottom: 45px;
-    left: 500px;
+    left: 450px;
     color: white;
     font-size: 12px;
     padding: 0px 8px;
