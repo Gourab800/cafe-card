@@ -1,14 +1,15 @@
 .figure img {
     padding: 30px 6px;
-    width: 1180px;
+    width: 1080px;
     
     height: 450px;
-    object-fit: fill;
-
-
+    object-fit: cover;
+    
+    
 }
 
 .figure {
+    margin: 0 auto;
     position: relative;
     width: fit-content;
 }
@@ -38,7 +39,7 @@
 .element3 {
     margin: 0 auto;
     bottom: 45px;
-    left: 570px;
+    left: 500px;
     color: white;
     font-size: 12px;
     padding: 0px 8px;
