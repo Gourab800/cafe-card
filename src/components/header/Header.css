@@ -1,4 +1,4 @@
-.navbar{
+.nav{
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
@@ -10,21 +10,21 @@
     
 }
 
-.navbar ul{
+.nav ul{
     display: flex;
     flex: 1;
     justify-content: flex-end;
     list-style: none;
 }
-.navbar ul li{
+.nav ul li{
     padding: 20px 20px;
 }
-.navbar ul li a{
+.nav ul li a{
     color: white;
     text-decoration: none;
 
 }
-.navbar ul li a:hover{
+.nav ul li a:hover{
     text-decoration: underline;
 }
 .icon{

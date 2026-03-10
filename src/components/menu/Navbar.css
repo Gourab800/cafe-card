@@ -1,0 +1,99 @@
+/* ── Base Navbar ── */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+
+/* ── Desktop Menu ── */
+.nav-links {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  padding: 20px 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* ── Hamburger Button ── */
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* ── Mobile Only ── */
+@media (max-width: 768px) {
+
+  /* Hide desktop menu */
+  .nav-links {
+    display: none !important;
+    flex-direction: column;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #000;
+    padding: 8px 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    margin: 0;
+  }
+
+  /* Show when open */
+  .nav-links.open {
+    display: flex !important;
+  }
+
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #222;
+    list-style: none;
+  }
+
+  .nav-links li:last-child {
+    border-bottom: none;
+  }
+
+  .nav-links li a {
+    display: block;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Show burger */
+  .burger {
+    display: block;
+  }
+}

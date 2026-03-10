@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from './components/header/Header'
+import Header from './components/header/Header'
 import Section from './components/section/Section'
 import Footer from './components/footer/Footer'
 import Section2 from './components/section2/Section2'
 import Section3 from './components/section3/Section3'
 import Section4 from './components/section4/Section4'
+import Navbar from './components/menu/Navbar'
 
 function App() {
   const coffee = [
@@ -64,6 +65,7 @@ function App() {
   return (
     <div className='container'>
       <Navbar />
+      
       <Section />
       <section className='section-container'>
 
